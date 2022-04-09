@@ -1,0 +1,4 @@
+Code,State,Script
+0,Detected,"""찾는중"""
+1,Find,"""찾았다"""
+2,Hit,"""공격받는중"""
