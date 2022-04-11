@@ -8,7 +8,7 @@ AMyActor::AMyActor()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MESH"));
+	Mesh = CreateDefaultSubobject<StaticMeshComponent>(TEXT("MESH"));
 	RootComponent = Mesh;
 	Comp = CreateDefaultSubobject<UMyActorComponent>(TEXT("Compo"));
 	Comp->Mesh->SetupAttachment(RootComponent);
